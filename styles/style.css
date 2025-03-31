@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f3f3f3;
+    background-color: #f4faff;
+    color: #333;
   }
   
   header {
@@ -15,13 +16,52 @@ body {
   nav ul {
     list-style: none;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #004d40;
   }
   
   nav ul li {
-    display: inline;
-    margin-right: 10px;
+    margin: 0 15px;
   }
   
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #a5d6a7;
+  }
+  
+  main {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .acuario {
+    margin: 2rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    max-width: 600px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .acuario h3 {
+    color: #00796b;
+  }
+  
+  .acuario img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+  }
+  
+
   footer {
     text-align: center;
     padding: 1rem;
